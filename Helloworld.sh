@@ -1,1 +1,1 @@
-echho "Hello World"
+echo "Hello World"
