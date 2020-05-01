@@ -1,4 +1,4 @@
-pipeline{
+/*pipeline{
 
 agent any
 
@@ -31,5 +31,23 @@ echo 'Deploying...'
 
 }
 }
+}
+}      */
+
+node{
+
+stage('Build'){
+
+echo'Build....'
+}
+stage('Test'){
+
+echo 'Testing...'
+
+}
+stage('Deploy'){
+
+echo 'Deploying...'
+
 }
 }
